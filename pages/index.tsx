@@ -26,7 +26,10 @@ const Home: NextPage = () => {
         </p>
       </main>
 
-      <footer className={styles.footer}>
+      <footer
+        className={styles.footer}
+        style={{ borderTopColor: primaryColor }}
+      >
         <span>
           Template built with{" "}
           <a
