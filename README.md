@@ -44,7 +44,7 @@ NEXT_PUBLIC_ACCENT_COLOR=...
 NEXT_PUBLIC_SUBTEXT=...
 ```
 
-- NEXT*PUBLIC_SITE_NAME: \_required* Title of the site and main header.
+- NEXT_PUBLIC_SITE_NAME: _required_ Title of the site and main header.
 - NEXT_PUBLIC_PRIMARY_COLOR: Font color of the site.
 - NEXT_PUBLIC_SECONDARY_COLOR: Background color of the site.
 - NEXT_PUBLIC_ACCENT_COLOR: Link color of the site.
