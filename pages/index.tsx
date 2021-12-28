@@ -7,6 +7,9 @@ const siteName = process.env.NEXT_PUBLIC_SITE_NAME || "site name";
 const primaryColor = process.env.NEXT_PUBLIC_PRIMARY_COLOR || "#000";
 const secondaryColor = process.env.NEXT_PUBLIC_SECONDARY_COLOR || "#fff";
 const accentColor = process.env.NEXT_PUBLIC_ACCENT_COLOR || "#0b5cd6";
+const subText =
+  process.env.NEXT_PUBLIC_SUBTEXT ||
+  "This site is currently under construction";
 
 const Home: NextPage = () => {
   return (
@@ -21,9 +24,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to {siteName}</h1>
 
-        <p className={styles.description}>
-          This site is currently under construction
-        </p>
+        <p className={styles.description}>{subText}</p>
       </main>
 
       <footer
