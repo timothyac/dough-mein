@@ -4,7 +4,7 @@
 
 ## Demo
 
-### [https://dough-mein.vercel.app/](https://https://dough-mein.vercel.app/)
+### [https://dough-mein.vercel.app/](https://dough-mein.vercel.app/)
 
 ## Deploy your own
 
